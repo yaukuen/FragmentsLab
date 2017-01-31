@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="group9.tcss450.uw.edu.fragmentslab.FirstFragment">
+
+    <Button
+        android:id="@+id/redButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/red_fragment_button" />
+
+    <Button
+        android:id="@+id/greenButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/green_fragment_button" />
+
+    <Button
+        android:id="@+id/blueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blue_fragment_button" />
+
+    <Button
+        android:id="@+id/purpleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uw_purple" />
+
+    <Button
+        android:id="@+id/goldButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uw_gold" />
+
+</LinearLayout>
